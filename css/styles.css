@@ -57,6 +57,22 @@ nav a{
 .actual:hover{
     color: #444444;
 }
+.card img{
+    border-radius: 10px;
+}
+.title{
+    font-family: 'Bree Serif', serif;
+    margin: 30px;
+    text-align: center;
+}
+.card{
+    border: none;
+}
+.card-body{
+    margin-top: 10px;
+    border: solid #00ada7;
+    border-radius: 10px;
+}
 .hero{
     background-image: url("../img/background/waves-pattern-arcano-dos.png");
     background-repeat: no-repeat;
