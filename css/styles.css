@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.nav-top{
+    background-color: #00ada7;
+}
+.nav-top div a{
+    color: white;
+}
+.social{
+    display: flex;
+    justify-content: end;
+}
+.nav-top div a:hover{
+    color: #444444;
+}
+nav{
+    font-family: 'Bree Serif', serif;
+}
+nav a{
+    text-decoration: none;
+}
+.isotipo{
+    width: 100px;
+    height: 100px;
+}
+.logotipo{
+    color: #00ada7;
+    font-size: 33px;
+}
+.nav-link{
+    color: #444444;
+    border-bottom: solid transparent;
+}
+.nav-link:hover{
+    border-bottom: solid;
+}
+.dropdown-item{
+    color: #444444;
+    border-bottom: solid transparent;
+}
+.dropdown-item:hover{
+    border-bottom: solid;
+    background-color: white;
+}
+.navbar-toggler-icon{
+    color: #00ada7;
+    border: none;
+}
+.actual{
+    color: #444444;
+    border-bottom: solid;
+}
+.actual:hover{
+    color: #444444;
+}
+.hero{
+    background-image: url("../img/background/waves-pattern-arcano-dos.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.heroine-dark{
+    background-color: #444444;
+}
+.heroine-light{
+    background-color: #00ada7;
+}
+@media (max-width: 500px){
+    .social{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-500{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+    }
+    .isotipo{
+        width: 200px;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .logotipo{
+        font-size: 44px;
+    }
+    nav .nav-item{
+        text-align: center;
+    }
+}
