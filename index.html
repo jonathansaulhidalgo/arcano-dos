@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Astro Coach</title>
+    <title>Arcano Dos</title>
     <!-- Google Font Bree Serif -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css">
     <!-- Open Graph data -->
-    <meta property="og:title" content="Curriculum IT Jonathan Saúl Hidalgo" />
+    <meta property="og:title" content="Arcano Dos" />
     <meta property="og:type" content="video.movie" />
     <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
     <meta property="og:image" content="https://ia.media-imdb.com/images/rock.j" />
@@ -45,88 +45,114 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link me-1 fs-5 actual" aria-current="page" href="#">INICIO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link me-1 fs-5" href="#">ACERCA DE</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link me-1 fs-5" href="#">PRODUCTOS</a>
+            <a class="nav-link me-1 fs-5 actual" aria-current="page" href="#">
+              INICIO
+            </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link me-1 fs-5 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              TAROT
+            <a class="nav-link me-1 fs-5" href="#about">
+              ACERCA DE
             </a>
-            <ul class="dropdown-menu border-0">
-              <li><a class="dropdown-item" href="#">CONSULTA DE TAROT</a></li>
-              <li><a class="dropdown-item" href="#">APRENDER TAROT</a></li>
-            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link me-1 fs-5" href="#">CONTACTO</a>
+            <a class="nav-link me-1 fs-5" href="#productos">
+              PRODUCTOS
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link me-1 fs-5" href="#tarot">
+              TAROT
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-1 fs-5" href="#blog">
+              BLOG
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-1 fs-5" href="#contacto">
+              CONTACTO
+            </a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <section>
-    <div class="container my-5 rounded">
-      <div class="row">
-        <div class="col-md-6">
-          <div id="carouselExampleSlidesOnly" class="carousel slide m-5" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div>
-                  <h2>HOLA</h2>
-                  <p>ME MUEVO ASÍ</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-            </div>
-          </div>
+  <section class="about position-relative" id="about">
+    <div class="container">
+      <div class="position-absolute top-50 start-50 translate-middle pb-5">
+        <div class="text-center">
+          <h2 class="title title-light">
+            TIENDA HOLÍSTICA ONLINE
+          </h2>
         </div>
-        <div class="col-md-6">
-          <div id="carouselExampleSlidesOnly" class="carousel slide m-5" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-            </div>
-          </div>
+        <div class="text-center ">
+          <h5 class="text-dark">
+            Contamos con una gran variedad de productos.
+          </h5>
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <a class="btn btn-light rounded-pill p-2 mt-4" href="#">SABER MÁS</a>
         </div>
       </div>
     </div>
   </section>
-  <section>
+  <section class="hero position-relative" id="productos">
+    <div class="position-absolute top-50 start-50 translate-middle pb-5">
+      <div class="text-center">
+        <h2 class="title title-dark">
+          PRODUCTOS
+        </h2>
+      </div>
+      <div class="text-center ">
+        <h5 class="text-light">
+          Contamos con una gran variedad de productos.
+        </h5>
+      </div>
+      <div class="d-flex align-items-center justify-content-center">
+        <a class="btn btn-light border-0 rounded-pill p-2 mt-4" href="#">VER CATÁLOGO</a>
+      </div>
+    </div>
+  </section>
+  <section class="tarot position-relative" id="tarot">
+    <div class="container">
+      <div class="position-absolute top-50 start-50 translate-middle pb-5">
+        <div class="text-center">
+          <h2 class="title title-light">
+            TAROT
+          </h2>
+        </div>
+        <div class="text-center ">
+          <h5 class="text-dark">
+            ¡Reservá tu consulta de tarot con nosotrxs!
+          </h5>
+        </div>
+        <div class="d-flex align-items-center justify-content-center">
+          <a class="btn btn-light rounded-pill p-2 mt-4" href="#">ENVIAR WHATSAPP&nbsp;&nbsp;<i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="waves mb-0" id="blog">
     <div class="container">
       <div>
         <h2 class="title">
-          PRODUCTOS
+          BLOG
         </h2>
       </div>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card h-100">
-            <img src="./img/fortune-2414239_960_720.jpg" class="card-img-top" alt="...">
+          <div class="card rounded h-100">
+            <img src="./img/buddhist-5695220_960_720.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title title">SAHUMERIOS</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <a></a>
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card rounded h-100">
             <img src="./img/buddhist-5695220_960_720.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title title">VELAS</h5>
@@ -135,7 +161,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card rounded h-100">
             <img src="./img/candle-7179556_960_720.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title title">RESINAS</h5>
@@ -143,69 +169,71 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./img/candle-7179556_960_720.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title title">HIERBAS</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./img/candle-7179556_960_720.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title title">UTENSILIOS</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100">
-            <img src="./img/candle-7179556_960_720.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title title">KITS</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            </div>
-          </div>
-        </div>
+      </div>
+      <div class="d-flex align-items-center justify-content-center mt-5">
+        <a class="btn btn-dark border-0 rounded-pill p-2" href="#">IR AL BLOG</a>
       </div>
     </div>
   </section>
-  <section class="hero mb-0">
-
+  <section class="heroine-light my-0" id="contacto">
+    <div>
+      <h2 class="title title-dark">
+        CONTACTO
+      </h2>
+    </div>
+    <div class="py-5 mb-0 d-flex justify-content-center w-100">
+      <div class="container w-75">
+        <form class="text-light row g-3 needs-validation" novalidate action="https://formspree.io/f/moqzlraj" method="POST">
+          <div class="col-md-4">
+            <label for="validationCustom01" class="form-label">Nombre</label>
+            <input type="text" name="name" class="form-control" id="validationCustom01" required>
+          </div>
+          <div class="col-md-8">
+            <label for="validationCustom02" class="form-label">Email</label>
+            <div class="input-group has-validation">
+              <input type="email" name="email" class="form-control" id="validationCustom02" aria-describedby="inputGroupPrepend" required>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationCustom03" class="form-label">Cód. Área</label>
+            <input type="tel" name="cellphoneCode" maxlength="3" class="form-control" id="validationCustom03" required>
+          </div>
+          <div class="col-md-9">
+            <label for="validationCustom04" class="form-label">Celular</label>
+            <div class="input-group">
+              <div class="input-group-text">15</div>
+              <input type="tel" name="cellphoneNumber" maxlength="8" class="form-control" id="validationCustom04" required>
+            </div>
+          </div>
+          <div class="col-12 text-center">
+            <button class="btn btn-dark border-0 rounded-pill mt-5" type="submit">ENVIAR</button>
+          </div>
+        </form>
+      </div>
+    </div>
   </section>
-  <section class="heroine-light mt-0">
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+  <footer class="heroine-light my-0">
+    <div class="d-flex justify-content-center rounded">
+      <a class="link-icon-dark p-2 mt-3 mb-3 rounded" href="https://tiktok.com/@jonathansaulhidalgo" alt="tiktok" target="_blank"><p class="fs-3"><i class="bi bi-tiktok"></i></p></a>
+      <a class="link-icon-dark p-2 mt-3 mb-3 rounded" href="https://instagram.com/jonathansaulhidalgo" alt="instagram" target="_blank"><p class="fs-3"><i class="bi bi-instagram"></i></p></a>
+      <a class="link-icon-dark p-2 mt-3 mb-3 rounded" href="https://twitter.com/in/jonathansaulhid" alt="twitter" target="_blank"><p class="fs-3"><i class="bi bi-twitter"></i></p></a>
+      <a class="link-icon-dark p-2 mt-3 mb-3 rounded" href="https://facebook.com/jonathansaulhidalgo" alt="facebook" target="_blank"><p class="fs-3"><i class="bi bi-facebook"></i></p></a>
+      <a class="link-icon-dark p-2 mt-3 mb-3 rounded" href="https://youtube.com/jonathansaulhidalgo" alt="youtube" target="_blank"><p class="fs-3"><i class="bi bi-youtube"></i></p></a>
+    </div>
+    <div class="d-flex justify-content-center nav-legal">
+      <a class="link-icon-dark p-2 rounded" href="./es-aviso-legal.html"><p class="fs-6">AVISO LEGAL</p></a>
+      <a class="link-icon-dark p-2 rounded" href="./es-politica-de-privacidad.html"><p class="fs-6">POLÍTICA DE PRIVACIDAD</p></a>
+      <a class="link-icon-dark p-2 rounded" href="./es-politica-de-cookies.html"><p class="fs-6">POLÍTICA DE COOKIES</p></a>
+    </div>
+  </footer>
+  <section class="heroine-dark">
+    <div class="d-flex justify-content-center">
+      <p class="fs-6">© Copyright Jonathan Saúl Hidalgo 2023. Todos los derechos reservados.</p>
+    </div>
   </section>
-    <footer class="text-center">
-      <div class="d-flex justify-content-center rounded">
-        <a class="link-icon-dark p-2 mt-3 mb-3 rounded" href="https://tiktok.com/@jonathansaulhidalgo" alt="tiktok" target="_blank"><p class="fs-3"><i class="bi bi-tiktok"></i></p></a>
-        <a class="link-icon-dark p-2 mt-3 mb-3 rounded" href="https://instagram.com/jonathansaulhidalgo" alt="instagram" target="_blank"><p class="fs-3"><i class="bi bi-instagram"></i></p></a>
-        <a class="link-icon-dark p-2 mt-3 mb-3 rounded" href="https://twitter.com/in/jonathansaulhid" alt="twitter" target="_blank"><p class="fs-3"><i class="bi bi-twitter"></i></p></a>
-        <a class="link-icon-dark p-2 mt-3 mb-3 rounded" href="https://facebook.com/jonathansaulhidalgo" alt="facebook" target="_blank"><p class="fs-3"><i class="bi bi-facebook"></i></p></a>
-        <a class="link-icon-dark p-2 mt-3 mb-3 rounded" href="https://www.twitch.tv/jonathansaulhidalgo" alt="twitch" target="_blank"><p class="fs-3"><i class="bi bi-twitch"></i></p></a>
-        <a class="link-icon-dark p-2 mt-3 mb-3 rounded" href="https://youtube.com/jonathansaulhidalgo" alt="youtube" target="_blank"><p class="fs-3"><i class="bi bi-youtube"></i></p></a>
-      </div>
-      <div class="d-flex justify-content-center nav-legal">
-        <a class="link-icon-dark p-2 rounded fw-bold" href="./es-aviso-legal.html"><p class="fs-6">AVISO LEGAL</p></a>
-        <a class="link-icon-dark p-2 rounded fw-bold" href="./es-politica-de-privacidad.html"><p class="fs-6">POLÍTICA DE PRIVACIDAD</p></a>
-        <a class="link-icon-dark p-2 rounded fw-bold" href="./es-politica-de-cookies.html"><p class="fs-6">POLÍTICA DE COOKIES</p></a>
-      </div>
-      <div class="d-flex justify-content-center">
-        <p class="fs-6">© Copyright Jonathan Saúl Hidalgo 2023. Todos los derechos reservados.</p>
-      </div>
-    </footer>
-    <!-- Bootstrap’s compiled JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <!-- JS -->
-    <script src="js/function.js"></script>
+  <!-- Bootstrap’s compiled JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <!-- JS -->
+  <script src="js/function.js"></script>
 </body>
 </html>
