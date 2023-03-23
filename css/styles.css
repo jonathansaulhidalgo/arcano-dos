@@ -148,6 +148,7 @@ footer a:hover{
     .social{
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     .navbar-500{
         display: flex;
@@ -159,7 +160,6 @@ footer a:hover{
         width: 200px;
         height: 200px;
         margin-bottom: 10px;
-        justify-content: center;
     }
     .logotipo{
         font-size: 44px;
